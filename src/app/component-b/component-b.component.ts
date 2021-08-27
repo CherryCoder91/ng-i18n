@@ -10,7 +10,7 @@ export class ComponentBComponent implements OnInit {
   constructor(@Inject(LOCALE_ID) public readonly locale: string) { }
 
   public myDate = Date.now();
-  public myNumber = 1.25;
+  public myNumber = 12345.12345;
   public myCurrency = 2.5;
   public myPercent = 0.56;
   public myUppercase = 'A big brown fox jumped over';

@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { AngularLocaleRegistrarService } from './angular-locale.service';
 import { ComponentAComponent } from './component-a/component-a.component';
 import { ComponentBComponent } from './component-b/component-b.component';
+import { FooterComponent } from './footer/footer.component';
 
 export const initializerProvider = (appInitializer: any) => {
   return {
@@ -27,7 +28,8 @@ export function appInitializerFactory(
   declarations: [
     AppComponent,
     ComponentAComponent,
-    ComponentBComponent
+    ComponentBComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
